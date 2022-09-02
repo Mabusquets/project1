@@ -1,0 +1,129 @@
+*{
+    
+    margin:0;
+    padding: 0;
+}
+@font-face{ font-family:'font1';
+src:url('fonts/georgia.ttf')}
+
+body {
+  font-family: 'font1';
+    width: 960px;
+margin-left: 25%;
+margin-right: 200px;
+    background-color:burlywood;
+    
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:antiquewhite;
+margin-top: 10px;
+width: 960px;
+    height: 120px;
+    
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    margin-top: 25px;
+    color: black;
+}
+.img1 a{ margin-top: 0px;}
+
+.navbar img{height: 90px;width: 100px;margin-left: 50px;margin-right: 250px;}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+     margin-top: 25px;
+    
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+color: black;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: whitesmoke;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+footer{background-color: antiquewhite;
+height: 120px;}
+.copy{padding: 20px;float: left}
+.copy1{padding: 20px;float: right}
+.copy1 img{height: 30px;width: 25px;margin-left: 15px;margin-right: 0;}
+
+.mid{background-color:antiquewhite;padding: 40px}
+.mid1{background-color:antiquewhite;padding: 40px}
+.mid1 img{height: 400px;width: 850px;}
+.box1{padding: 10px;background-color: white;font-family:'font1';font-size: 18px}
+.box2{padding: 10px;background-color: white;margin-top: 40px}
+.box1 h1{text-align: center;margin-bottom: 40px;color:burlywood;font-family:'font1'}
+.box2 h1{text-align: center;margin-bottom: 40px;color:burlywood}
+
+.text1{color: black;float: left;width: 500px;font-size: 22px;padding: 10px;margin-top: 100px}
+.imgbox img{height: 500px}
+.shop{background-color: aliceblue;padding: 20px;font-family:'font1'}
+.shop img{height: 400px;width: 500px; margin-left: 180px}
+.shop h1{text-align: center;color:burlywood}
+.product p{text-align: center;font-size: 20px;margin-top: 20px;margin-bottom: 20px;;font-family:'font1'}
+.product button{text-align: center;font-size: 20px;margin-top: 20px;margin-bottom: 20px;margin-left: 400px}
+.product a{text-decoration: none;color:burlywood}
+.repair{background-color: white;padding: 20px}
+.repair h1{text-align: center;margin-bottom: 20px;color: burlywood;;font-family:'font1'}
+.repair p{text-align: center;font-size: 18px;;font-family:'font1'}
+.repair img{height: 400px;width: 500px;margin-left: 180px;margin-bottom: 40px;margin-top: 40px}
+.eco{background-color: white;padding: 20px;;font-family:'font1'}
+.eco h1{text-align: center;color: burlywood;margin-bottom: 20px;}
+.eco img{height: 400px;width: 550px;margin-left: 160px;margin-top: 25px;margin-bottom: 25px}
+.eco p{text-align: center;margin-bottom: 20px}
+.location{background-color: white;padding: 20px;;font-family:'font1'}
+.location h1{text-align: center;color: burlywood}
+.location iframe{margin-left: 150px;margin-top: 90px;margin-bottom: 90px}
+.location p{text-align: center;font-size: 18px;margin-bottom: 20px}
+.form1{background-color: white;padding: 20px;;font-family:'font1'}
+.form1 h1{text-align: center;color: burlywood;margin-top: 20px;margin-bottom: 20px;font-family:'font1'}
+.form1 input,select{width: 500px;height: 30px;margin: 20px;margin-left: 170px}
+.form1 textarea{width: 500px;height: 200px;margin: 20px;margin-left: 170px}
+.form1 button{width: 500px;height: 30px;margin: 20px;margin-left: 170px}
+.mission{background-color: white;padding: 20px}
+.mission p{font-family:'font1';font-size: 18px;text-align: justify;margin-bottom: 40px}
+.mission img{height: 400px;width: 600px; margin-left: 150px;margin-bottom: 40px}
