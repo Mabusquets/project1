@@ -4,7 +4,7 @@
     padding: 0;
 }
 @font-face{ font-family:'font1';
-src:url('fonts/georgia.ttf')}
+src:url('../fonts/georgia.ttf')}
 
 body {
   font-family: 'font1';
